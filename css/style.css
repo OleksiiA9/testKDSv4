@@ -16,11 +16,11 @@
     height: 500px;
     bottom: -40%;
     right: -20%;
-    -moz-transform: rotate(165deg);
-    -webkit-transform: rotate(165deg);
-    -o-transform: rotate(165deg);
-    -ms-transform: rotate(165deg);
-    transform: rotate(165deg);
+    -moz-transform: rotate(170deg);
+    -webkit-transform: rotate(170deg);
+    -o-transform: rotate(170deg);
+    -ms-transform: rotate(170deg);
+    transform: rotate(170deg);
     background: #fff;
     position: absolute;
 }
@@ -30,11 +30,11 @@
     height: 500px;
     bottom: -40%;
     left: -20%;
-    -moz-transform: rotate(15deg);
-    -webkit-transform: rotate(15deg);
-    -o-transform: rotate(15deg);
-    -ms-transform: rotate(15deg);
-    transform: rotate(15deg);
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
     background: #fff;
     position: absolute;
 }
@@ -49,12 +49,23 @@
     display: block;
     font-size: 18px;
     color: #fff;
+    padding-left: 40px;
+    background: url(../image/menu.png) center left no-repeat;
+    height: 20px;
 }
 .logo .logo1{
     display: block;
     font-size: 40px;
-    padding-bottom: 18px;
+    padding-bottom: 3px;
     color: #fff;
+}
+.logo .logo-line{
+    display: block;
+    width: 84px;
+    height: 2px;
+    background: #fff;
+    margin: 0 auto;
+    margin-bottom: 15px;
 }
 .logo .logo2{
     display: block;
@@ -111,4 +122,108 @@
 }
 .box4{
     background: url(../image/box4.png) top center no-repeat;
+}
+.but{
+    display: block;
+    margin: 60px auto;
+    background: #d13f49;
+    border-radius: 5px;
+    color: #fff;
+    width: 390px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.but:hover{
+    background: green;
+    width: 390px;
+    height: 50px;
+}
+.main3 {
+    text-align: left;
+    background: #1d4da7;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.main3 h3{
+    display: block;
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 42px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 30px;
+    text-shadow: 11px 11px 1px rgba(0, 0, 0, 0.1);
+}
+.agent{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: 0 auto;
+}
+.agent1, .agent2, .agent3, .agent4{
+    width: 590px;
+    position: relative;
+    padding-bottom: 90px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+}
+.agentimg{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: darkgray;
+    float: left;
+}
+.agentname{
+    padding-left: 200px;
+    width: 300px;
+}
+.agentname ul li{
+    margin-bottom: 20px;
+    color: #fff;
+}
+.agentname ul li:fist-child{
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.agentname ul li:nth-child(2){
+    padding-left: 220px;
+    position: relative;
+}
+.agentname ul li:nth-child(2):before{
+    position: absolute;
+    content: "Опыт работы";
+    left: 0;
+    top: 0;
+    color: #9683c2;
+}
+.agentname ul li:nth-child(3){
+    padding-left: 220px;
+    position: relative;
+}
+.agentname ul li:nth-child(3):before{
+    position: absolute;
+    content: "Время средней продажи";
+    left: 0;
+    top: 0;
+    color: #9683c2;
+}
+.agenttxt{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.agenttxt .readmore{
+    color: #8a7dbf;
+    cursor: pointer;
+}
+.main4{
+    background: #fff url(../image/banner.png) center center no-repeat;
+    padding: 60px 0;
 }
